@@ -1,6 +1,7 @@
 'use client';
 import React, { useEffect, useState } from "react";
-import "./form.css";
+import '../assets/css/form.css';
+
 
 export default function RegistroDocumento() {
   const [tiposDocumento, setTiposDocumento] = useState([]);

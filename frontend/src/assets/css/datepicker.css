@@ -1,0 +1,49 @@
+/* datepicker.css */
+
+/* Ajusta el calendario emergente */
+.react-datepicker-popper {
+  z-index: 50; /* Asegura que aparezca por encima de otros elementos */
+}
+
+/* Caja del calendario */
+.react-datepicker {
+  border-radius: 0.5rem; /* Bordes redondeados */
+  border: 1px solid #d1d5db; /* Gris claro similar a Tailwind */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff; /* Fondo blanco */
+}
+
+/* Encabezado del calendario */
+.react-datepicker__header {
+  background-color: #f3f4f6; /* Tailwind gray-100 */
+  border-bottom: 1px solid #d1d5db;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+/* Días seleccionados */
+.react-datepicker__day--selected,
+.react-datepicker__day--keyboard-selected {
+  background-color: #22c55e; /* Verde PNP */
+  color: white;
+  border-radius: 0.5rem;
+}
+
+/* Hover sobre los días */
+.react-datepicker__day:hover {
+  background-color: #bbf7d0; /* Verde claro */
+  border-radius: 0.5rem;
+}
+
+/* Botones de navegación */
+.react-datepicker__navigation-icon::before {
+  border-color: #374151; /* Gris oscuro */
+}
+
+/* Selector de mes/año */
+.react-datepicker__current-month {
+  color: #111827; /* Gris muy oscuro */
+  font-weight: 600;
+}
+
